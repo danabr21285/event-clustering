@@ -1,6 +1,6 @@
 # 📊 Hierarchical Clustering: Event Attendance Analysis
 
-This project uses hierarchical clustering in R to analyze patterns among attendees of events (tours, open houses, accepted student days). The analysis helps identify traits that correlate with event attendance and informs targeted recruitment strategies.
+This project uses hierarchical clustering in R to analyze patterns among attendees of events. The analysis helps identify traits that correlate with event attendance and informs targeted strategies.
 
 ---
 
@@ -15,15 +15,15 @@ Group event attendees by shared traits to better personalize outreach and increa
 - **Source**: Query
 - **Timeframe**: 2021–2024
 - **Population**: 235 event attendees  
-- **Events**: Campus Tours, Accepted Student Days, Open Houses  
+- **Events**: Tours, Fun Fridays, Open Houses  
 - **Variables Used (Binary Format)**:
-  - Applicant
   - Inquiry
-  - Campaigns 
-  - First Generation
-  - Income/Economically Disadvantaged
+  - Subscriber
+  - Leads
+  - No College Degree
+  - Income < $20,000
   - Health Professional Shortage Area
-  - URIM
+  - URM
 
 ---
 
@@ -39,24 +39,24 @@ Group event attendees by shared traits to better personalize outreach and increa
 
 ## 📌 Key Clusters Identified
 
-### Cluster 1: Economically Disadvantaged First-Gen Applicants
+### Cluster 1: Economically Disadvantaged No College Degree
 - High first-gen and economically disadvantaged representation  
 - 61% from medically underserved areas  
 
 ### Cluster 2: Diverse Applicants with Moderate Economic Status  
-- 34% URIM  
-- No first-gen students  
+- 34% URM  
+- everyone had a college degree 
 
 ### Cluster 3: High Targeted Marketing Engagement  
-- 100% involved in a marketing initiative  
-- All URIM, all economically disadvantaged  
+- 100% involved in a marketing initiative that made them become a lead 
+- All URM, all income <$20,000.00 
 
 ### Cluster 4: Underserved Applicants  
 - 100% from medically underserved areas  
 
-### Cluster 5: General Inquiries with URIM Representation  
-- 31% URIM  
-- All non-applicants
+### Cluster 5: General Inquiries with URM Representation  
+- 31% URM  
+- All non-suscribers
 
 ---
 
@@ -66,24 +66,19 @@ Group event attendees by shared traits to better personalize outreach and increa
    Boost outreach for Clusters 1, 3, and 4
 
 2. **Offer Financial Incentives**  
-   Promote scholarships, waivers, or travel assistance
+   Promote coupons, waivers, or travel assistance
 
-3. **Support First-Gen Students**  
-   Tailored materials, mentoring, and premed resources
+3. **Support First-Gen**  
+   Tailored materials, mentoring, and resources
 
 4. **Emphasize Diversity**  
-   Feature URIM speakers and student panels
+   Feature URM speakers and events
 
 5. **Geographic Targeting**  
    Focus outreach in medically underserved communities
 
 ---
 
-## 📂 Files Included
-
-- `README.md` — This documentation
-
----
 
 ## 👩‍💼 Author
 
