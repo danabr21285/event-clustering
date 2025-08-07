@@ -12,14 +12,14 @@ Group event attendees by shared traits to better personalize outreach and increa
 
 ## 🗂️ Dataset Overview
 
-- **Source**: Slate Query
+- **Source**: Query
 - **Timeframe**: 2021–2024
 - **Population**: 235 event attendees  
 - **Events**: Campus Tours, Accepted Student Days, Open Houses  
 - **Variables Used (Binary Format)**:
   - Applicant
   - Inquiry
-  - DO to Biomed Target Marketing
+  - Campaigns 
   - First Generation
   - Income/Economically Disadvantaged
   - Health Professional Shortage Area
@@ -81,7 +81,6 @@ Group event attendees by shared traits to better personalize outreach and increa
 
 ## 📂 Files Included
 
-- `hierarchical_clustering_summary.docx` — Summary Report *(uploaded instead of R Notebook)*
 - `README.md` — This documentation
 
 ---
@@ -89,7 +88,6 @@ Group event attendees by shared traits to better personalize outreach and increa
 ## 👩‍💼 Author
 
 **Dana Brooks**  
-Executive Director of Admissions  
 📧 [danatallent@yahoo.com](mailto:danatallent@yahoo.com)  
 🔗 [LinkedIn](https://linkedin.com/in/dana-tallent-brooks-a15977a0)
 
