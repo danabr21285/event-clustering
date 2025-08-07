@@ -1,6 +1,6 @@
 # 📊 Hierarchical Clustering: Event Attendance Analysis
 
-This project uses hierarchical clustering in R to analyze patterns among attendees of admissions events (tours, open houses, accepted student days). The analysis helps identify traits that correlate with event attendance and informs targeted recruitment strategies.
+This project uses hierarchical clustering in R to analyze patterns among attendees of events (tours, open houses, accepted student days). The analysis helps identify traits that correlate with event attendance and informs targeted recruitment strategies.
 
 ---
 
