@@ -14,7 +14,7 @@ Group event attendees by shared traits to better personalize communication, opti
 
 - **Source**: Query from relational database  
 - **Timeframe**: 2021–2024  
-- **Sample Size**: 235 attendees  
+- **Sample Size**: 300 attendees  
 - **Event Types**: Venue Tours, Fun Fridays, Open Houses  
 - **Variables Used (Binary Format)**:
   - Inquiry
