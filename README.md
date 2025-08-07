@@ -48,7 +48,7 @@ Group event attendees by shared traits to better personalize outreach and increa
 - No first-gen students  
 
 ### Cluster 3: High Targeted Marketing Engagement  
-- 100% involved in DO to Biomed initiative  
+- 100% involved in a marketing initiative  
 - All URIM, all economically disadvantaged  
 
 ### Cluster 4: Underserved Applicants  
@@ -63,7 +63,7 @@ Group event attendees by shared traits to better personalize outreach and increa
 ## 💡 Strategic Recommendations
 
 1. **Expand Targeted Marketing**  
-   Boost DO to Biomed outreach for Clusters 1, 3, and 4
+   Boost outreach for Clusters 1, 3, and 4
 
 2. **Offer Financial Incentives**  
    Promote scholarships, waivers, or travel assistance
