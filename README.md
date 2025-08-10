@@ -22,7 +22,7 @@ Group event attendees by shared traits to better personalize communication, opti
   - Marketing Initiative Target
   - No College Degree
   - Income < $20,000
-  - Health Professional Shortage Area
+  - underserved Region
   - URM (Underrepresented Minority)
 
 > 📝 *Note: Dataset is fictional and created for demonstration purposes.*
@@ -44,7 +44,7 @@ Group event attendees by shared traits to better personalize communication, opti
 ### Cluster 1: Economically Disadvantaged, No College Degree
 - No college degree
 - Low income
-- 61% from medically underserved areas
+- 61% underserved region
 
 ### Cluster 2: Diverse, Economically Stable Attendees  
 - 34% URM  
@@ -56,7 +56,7 @@ Group event attendees by shared traits to better personalize communication, opti
 - All income under $20,000
 
 ### Cluster 4: Medically Underserved  
-- 98% from medically underserved areas  
+- 98% underserved region
 - Moderate educational/economic mix
 
 ### Cluster 5: Low Engagement Inquiries  
