@@ -25,7 +25,8 @@ Group event attendees by shared traits to better personalize communication, opti
   - underserved Region
   - URM (Underrepresented Minority)
 
-> 📝 *Note: Dataset is fictional and created for demonstration purposes.*
+> 📝 *Note: Dataset is fictional and created for demonstration purposes.*  
+> 📂 *The dataset (`event_attendance.csv`) is included in this repository.*
 
 ---
 
@@ -35,15 +36,40 @@ Group event attendees by shared traits to better personalize communication, opti
 - **Technique**: Agglomerative Hierarchical Clustering  
 - **Distance Metric**: Manhattan  
 - **Linkage Method**: Group Average  
-- **Output**: Dendrogram visualization and 5 identified clusters
+- **Output**: Dendrogram visualization and 5 identified clusters  
+
+### Dendrogram
+![Dendrogram of Event Attendees](Capture.PNG)
+
+### Cluster Counts
+![Cluster Counts](Capture1.PNG)
+
+### Cluster Profiles (% by Variable)
+![Cluster Profiles](Capture2.PNG)
+
+Or, view the text-based Markdown table:  
+
+|   clusterID | Inquiry   | Low_Income   | Marketing_Initiative_Target   | No_College_Degree   | Subscriber   | URM_Status   | Underserved_Region   |
+|------------:|:----------|:-------------|:------------------------------|:--------------------|:-------------|:-------------|:---------------------|
+|           1 | 0%        | 71%          | 0%                            | 32%                 | 12%          | 59%          | 32%                  |
+|           2 | 47%       | 84%          | 47%                           | 62%                 | 70%          | 5%           | 12%                  |
+|           3 | 49%       | 69%          | 64%                           | 72%                 | 47%          | 100%         | 5%                   |
+|           4 | 64%       | 48%          | 100%                          | 39%                 | 0%           | 9%           | 48%                  |
+|           5 | 22%       | 46%          | 73%                           | 22%                 | 86%          | 43%          | 100%                 |
+
+### Example Cross-Tab: No College Degree by Cluster
+![No College Degree by Cluster](Capture3.PNG)
+
+### Example Cross-Tab: Underserved Region by Cluster
+![Underserved Region by Cluster](Capture4.PNG)
 
 ---
 
 ## 📌 Key Clusters Identified
 
 ### Cluster 1: Economically Disadvantaged, No College Degree
-- No college degree
-- Low income
+- No college degree  
+- Low income  
 - 61% underserved region
 
 ### Cluster 2: Diverse, Economically Stable Attendees  
@@ -56,7 +82,7 @@ Group event attendees by shared traits to better personalize communication, opti
 - All income under $20,000
 
 ### Cluster 4: Medically Underserved  
-- 98% underserved region
+- 98% underserved region  
 - Moderate educational/economic mix
 
 ### Cluster 5: Low Engagement Inquiries  
